@@ -1,4 +1,9 @@
+/** @file "main.cpp"
+ * @brief
+ */
 #include "main.h"
+
+#include "grilles/grilles.h"
 
 /**< TODO:Add sdl/opengl 3 */
 #include <SDL2/SDL.h>
@@ -11,7 +16,6 @@ int main(int argc, char *argv[]) {
 
 namespace cmd {
     int Main() {
-
         return 0;
     }
 }

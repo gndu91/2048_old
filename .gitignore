@@ -26,3 +26,6 @@
 *.exe
 *.out
 *.app
+*.cbp
+*.save
+2048.depend
