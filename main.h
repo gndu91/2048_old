@@ -1,6 +1,7 @@
 #include <cstdlib>
-#include <iostream>
 #include <vector>
+
+#include "values.h"
 
 using namespace std;
 
@@ -33,6 +34,7 @@ namespace opengl {
     #ifdef OPENGL
         using namespace opengl;
     #else
+        #include <iostream>
         using namespace cmd;
     #endif // SDL
 #endif
