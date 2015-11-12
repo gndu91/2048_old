@@ -10,7 +10,7 @@
 
 
 int main(int argc, char *argv[]) {
-    Main();
+    return Main();
 }
 
 
@@ -24,9 +24,9 @@ namespace cmd {
 namespace sdl {
 
     int Main() {
+        atexit(SDL_Quit);
         SDL_Init(SDL_INIT_VIDEO);
 
-        SDL_Quit();
         return 0;
     }
 

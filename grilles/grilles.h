@@ -4,10 +4,10 @@
 #include <iostream>
 #include <vector>
 
-const int GAUCHE    = 7;
-const int DROITE    = 4;
-const int HAUT      = 8;
-const int BAS       = 2;
+#define GAUCHE  7
+#define DROITE  4
+#define HAUT    8
+#define BAS     2
 
 Grille grilleVide();
 Grille initialiseGrille ( Grille grille );

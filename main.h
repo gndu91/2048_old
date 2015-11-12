@@ -29,8 +29,10 @@ namespace opengl {
 
 #ifdef SDL
     using namespace sdl;
-#elifdef OPENGL
-    using namespace opengl;
 #else
-    using namespace cmd;
-#endif // SDL
+    #ifdef OPENGL
+        using namespace opengl;
+    #else
+        using namespace cmd;
+    #endif // SDL
+#endif
